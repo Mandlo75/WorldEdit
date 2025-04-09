@@ -1,0 +1,724 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;           /* Add some padding inside the container */
+    border: 1px solid #ccc;  /* Add a light border */
+    border-radius: 8px;      /* Round the corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.button:active {
+    background-color: #0056b3;
+}
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.button:active {
+    background-color: #004085;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4CAF50;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Container styles */
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Article styles */
+article {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #4CAF50;
+}
+/* About Section Styles */
+#about {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px;            /* Add padding inside the section */
+    margin: 20px auto;        /* Center the section with margin */
+    max-width: 800px;         /* Limit the width of the section */
+    border-radius: 8px;       /* Round the corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    text-align: center;       /* Center-align the text */
+}
+
+#about h2 {
+    color: #4CAF50; /* Green color for the heading */
+    margin-bottom: 15px;
+}
+
+#about p {
+    margin: 10px 0;
+    line-height: 1.6; /* Improve readability */
+}
+
+#about img {
+    border-radius: 50%; /* Make the image circular */
+    margin: 15px 0;     /* Add space around the image */
+    border: 2px solid #4CAF50; /* Add a border around the image */
+}
+/* Set background color for the entire page */
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Text color for readability */
+    font-family: Arial, sans-serif; /* Set a clean font */
+    margin: 0;
+    padding: 0;
+}
+/* Form Section Styles */
+form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;             /* Add padding inside the form */
+    margin: 20px auto;         /* Center the form */
+    max-width: 600px;          /* Limit the form width */
+    border-radius: 8px;        /* Round the corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+form label {
+    display: block;            /* Make labels block elements */
+    margin-bottom: 8px;        /* Add space below labels */
+    font-weight: bold;         /* Make labels bold */
+    color: #333;               /* Label text color */
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;               /* Make inputs and textarea full width */
+    padding: 10px;             /* Add padding inside inputs */
+    margin-bottom: 15px;       /* Add space below inputs */
+    border: 1px solid #ccc;    /* Add a light border */
+    border-radius: 5px;        /* Round the corners */
+    font-size: 16px;           /* Set font size */
+    box-sizing: border-box;    /* Include padding in width calculation */
+}
+
+form textarea {
+    resize: vertical;          /* Allow vertical resizing only */
+    height: 100px;             /* Set a default height */
+}
+
+form button {
+    display: inline-block;     /* Make the button inline-block */
+    background-color: #4CAF50; /* Green background */
+    color: white;              /* White text */
+    padding: 10px 20px;        /* Add padding inside the button */
+    border: none;              /* Remove border */
+    border-radius: 5px;        /* Round the corners */
+    cursor: pointer;           /* Change cursor to pointer on hover */
+    font-size: 16px;           /* Set font size */
+}
+
+form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+form button:focus {
+    outline: none;             /* Remove focus outline */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+/* General paragraph styles */
+p {
+    font-size: 16px;           /* Set font size */
+    line-height: 1.8;          /* Improve readability with line spacing */
+    color: #333;               /* Set text color */
+    margin-bottom: 15px;       /* Add space below each paragraph */
+    text-align: justify;       /* Justify text for a clean look */
+}
+
+/* Specific styles for paragraphs inside sections */
+section p {
+    margin: 10px 0;            /* Adjust margin for section paragraphs */
+    color: #555;               /* Slightly lighter text color */
+}
+/* General list item styles */
+li {
+    font-size: 16px;           /* Set font size */
+    line-height: 1.8;          /* Improve readability */
+    margin-bottom: 8px;        /* Add space below each list item */
+    color: #333;               /* Set text color */
+}
+
+/* Specific styles for unordered lists inside sections */
+section ul li {
+    padding-left: 20px;        /* Add padding to indent list items */
+    list-style-type: disc;     /* Use a disc as the bullet point */
+}
+
+/* Specific styles for navigation menu list items */
+nav ul li {
+    margin: 0 10px;            /* Add horizontal spacing between nav items */
+    list-style: none;          /* Remove bullet points for navigation */
+}
+
+nav ul li a {
+    color: white;              /* Set link text color */
+    text-decoration: none;     /* Remove underline from links */
+    padding: 10px 15px;        /* Add padding inside links */
+    display: block;            /* Make links block-level elements */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Change background color on hover */
+    border-radius: 5px;        /* Round the corners on hover */
+}
+
+/* General list item styles */
+li {
+    font-size: 16px;           /* Set font size */
+    line-height: 1.8;          /* Improve readability */
+    margin-bottom: 8px;        /* Add space below each list item */
+    color: #333;               /* Set text color */
+}
+
+/* Specific styles for unordered lists inside sections */
+section ul li {
+    padding-left: 20px;        /* Add padding to indent list items */
+    list-style-type: disc;     /* Use a disc as the bullet point */
+}
+
+/* Specific styles for navigation menu list items */
+nav ul li {
+    margin: 0 10px;            /* Add horizontal spacing between nav items */
+    list-style: none;          /* Remove bullet points for navigation */
+}
+
+nav ul li a {
+    color: white;              /* Set link text color */
+    text-decoration: none;     /* Remove underline from links */
+    padding: 10px 15px;        /* Add padding inside links */
+    display: block;            /* Make links block-level elements */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Change background color on hover */
+    border-radius: 5px;        /* Round the corners on hover */
+}
+
+/* General list item styles */
+li {
+    font-size: 16px;           /* Set font size */
+    line-height: 1.8;          /* Improve readability */
+    margin-bottom: 8px;        /* Add space below each list item */
+    color: #333;               /* Set text color */
+}
+
+/* Specific styles for unordered lists inside sections */
+section ul li {
+    padding-left: 20px;        /* Add padding to indent list items */
+    list-style-type: disc;     /* Use a disc as the bullet point */
+}
+
+/* Specific styles for navigation menu list items */
+nav ul li {
+    margin: 0 10px;            /* Add horizontal spacing between nav items */
+    list-style: none;          /* Remove bullet points for navigation */
+}
+
+nav ul li a {
+    color: white;              /* Set link text color */
+    text-decoration: none;     /* Remove underline from links */
+    padding: 10px 15px;        /* Add padding inside links */
+    display: block;            /* Make links block-level elements */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Change background color on hover */
+    border-radius: 5px;        /* Round the corners on hover */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 5px 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack navigation items vertically */
+    }
+
+    section {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px; /* Adjust header font size */
+    }
+
+    nav ul li a {
+        padding: 8px 10px; /* Adjust navigation padding */
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        font-size: 12px; /* Further adjust font size for very small screens */
+    }
+}
+/* Make images responsive */
+img {
+    max-width: 100%; /* Ensure the image does not exceed the width of its container */
+    height: auto;    /* Maintain the aspect ratio */
+    display: block;  /* Remove inline spacing below images */
+    margin: 0 auto;  /* Center the image horizontally if needed */
+}
+
+/* Make videos responsive */
+video {
+    max-width: 100%; /* Ensure the video does not exceed the width of its container */
+    height: auto;    /* Maintain the aspect ratio */
+    display: block;  /* Remove inline spacing below videos */
+    margin: 0 auto;  /* Center the video horizontally if needed */
+}
+
+/* For iframe videos (e.g., YouTube embeds) */
+iframe {
+    max-width: 100%; /* Ensure the iframe does not exceed the width of its container */
+    height: auto;    /* Maintain the aspect ratio */
+    display: block;  /* Remove inline spacing below iframes */
+    margin: 0 auto;  /* Center the iframe horizontally if needed */
+}
+
+/* Optional: Add a wrapper for videos to maintain aspect ratio */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper iframe,
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Add vendor prefixes for compatibility */
+button {
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -moz-border-radius: 5px;    /* Firefox */
+    border-radius: 5px;         /* Standard */
+}
+
+.video-wrapper iframe,
+.video-wrapper video {
+    -webkit-transform: scale(1); /* Safari, Chrome */
+    -moz-transform: scale(1);    /* Firefox */
+    transform: scale(1);         /* Standard */
+}/* Make images responsive */
+.responsive-img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    height: auto;    /* Maintain aspect ratio */
+    display: block;  /* Remove inline spacing below the image */
+    margin: 0 auto;  /* Center the image */
+}/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add spacing between form elements */
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}/* Responsive navigation menu */
+nav ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 5px 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}/* Responsive video wrapper */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper iframe,
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}body {
+    font-family: Arial, Helvetica, sans-serif; /* Add fallback fonts */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+/* Style for the hamburger icon */
+.hamburger-icon {
+    display: none; /* Hide by default */
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+}
+
+/* Show the hamburger icon on smaller screens */
+@media (max-width: 768px) {
+    .hamburger-icon {
+        display: block;
+    }
+}
+/* Enable smooth scrolling for the entire page */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Style the filter buttons */
+.filter-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filter-buttons button:hover {
+    background-color: #45a049;
+}
+
+/* Hide projects by default */
+#project-list li {
+    display: none;
+}
+
+/* Show projects when they are filtered */
+#project-list li.show {
+    display: list-item;
+}
+
+/* Lightbox styles */
+.lightbox {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.lightbox .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style for invalid input fields */
+input:invalid, textarea:invalid {
+    border: 2px solid red;
+}
+
+/* Style for valid input fields */
+input:valid, textarea:valid {
+    border: 2px solid green;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none; /* Hidden by default */
+}
